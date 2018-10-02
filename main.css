@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3E917D
+}
+html {
+  font-size: 20px;
+  font-family: 'Knewave', cursive;
+}
+
+h1 {
+font-weight:lighter;
+font-size: 60px;
+letter-spacing: 2px;
+margin-top: 5px
+margin-bottom: 5px
+}
+
+.fontStyle {
+color: #000000
+}
+.inputSection {
+  margin: 5px 0px 30px 0px;
+  width: 230px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin: 5px 0px 15px 0px;
+}
+
+.addOption {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 6px 17px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px
+
+}
+
+.btnChoose {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px
+}
